@@ -4174,16 +4174,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 168.91) (xy 82.55 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32ebd151-b672-4ef5-8d80-9ceeeacb5dda")
-	)
-	(wire
-		(pts
 			(xy 49.53 130.81) (xy 49.53 125.73)
 		)
 		(stroke
@@ -4414,7 +4404,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 157.48) (xy 27.94 168.91)
+			(xy 25.4 157.48) (xy 25.4 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4611,6 +4601,16 @@
 			(type default)
 		)
 		(uuid "6e6e093d-29f9-4294-920e-bb67793ad343")
+	)
+	(wire
+		(pts
+			(xy 80.01 168.91) (xy 99.06 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70bb0fbf-429d-452c-8fad-3b32ca721d0f")
 	)
 	(wire
 		(pts
@@ -5074,7 +5074,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 157.48) (xy 82.55 168.91)
+			(xy 80.01 157.48) (xy 80.01 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5224,16 +5224,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 168.91) (xy 27.94 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1b977ae-a55d-49e6-8ccc-d5f227420c36")
-	)
-	(wire
-		(pts
 			(xy 251.46 148.59) (xy 251.46 138.43)
 		)
 		(stroke
@@ -5261,6 +5251,16 @@
 			(type default)
 		)
 		(uuid "d5d23671-3001-4708-b2d9-56e6fd6eed33")
+	)
+	(wire
+		(pts
+			(xy 25.4 168.91) (xy 44.45 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ffa7f2-2c89-4c2c-8a0f-3a9cf4b7bfff")
 	)
 	(wire
 		(pts
@@ -6883,7 +6883,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1uF"
 			(at 177.8 84.2009 0)
 			(effects
 				(font
@@ -7115,7 +7115,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 116.84 60.9599 0)
 			(effects
 				(font
@@ -7185,7 +7185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 219.71 118.1099 0)
 			(effects
 				(font
@@ -7674,7 +7674,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 143.51 30.4799 0)
 			(effects
 				(font
@@ -8092,7 +8092,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 218.44 29.2099 0)
 			(effects
 				(font
@@ -8227,7 +8227,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 248.92 92.71 90)
 			(effects
 				(font
@@ -9231,7 +9231,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "100K"
 			(at 166.37 57.1499 0)
 			(effects
 				(font
@@ -9419,7 +9419,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 224.79 113.03 0)
+		(at 228.6 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9428,7 +9428,7 @@
 		(fields_autoplaced yes)
 		(uuid "96de358e-ccb4-4712-9c12-2581eef10401")
 		(property "Reference" "#PWR021"
-			(at 224.79 116.84 0)
+			(at 228.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9437,7 +9437,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 224.79 107.95 0)
+			(at 228.6 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,7 +9445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 113.03 0)
+			(at 228.6 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9454,7 +9454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 113.03 0)
+			(at 228.6 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9463,7 +9463,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 224.79 113.03 0)
+			(at 228.6 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9699,7 +9699,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 224.79 116.84 0)
+		(at 228.6 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9708,7 +9708,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1944fb3-ce4f-4ce7-8397-36a6d6a33917")
 		(property "Reference" "C7"
-			(at 228.6 114.6809 0)
+			(at 232.41 114.6809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9716,8 +9716,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 228.6 117.2209 0)
+		(property "Value" "10uF Tantal"
+			(at 232.41 117.2209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9726,7 +9726,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
-			(at 225.7552 120.65 0)
+			(at 229.5652 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9735,7 +9735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 116.84 0)
+			(at 228.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9744,7 +9744,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 224.79 116.84 0)
+			(at 228.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10056,7 +10056,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 78.74 58.4199 0)
 			(effects
 				(font
@@ -10422,7 +10422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 254 29.2099 0)
 			(effects
 				(font
@@ -10558,7 +10558,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 130.81 85.0899 0)
 			(effects
 				(font
@@ -10838,7 +10838,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10R"
 			(at 236.22 132.08 90)
 			(effects
 				(font
@@ -11109,7 +11109,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10R"
 			(at 242.57 142.494 90)
 			(effects
 				(font
@@ -11176,7 +11176,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "1n5819"
 			(at 230.886 143.256 0)
 			(effects
 				(font
@@ -11496,7 +11496,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 82.55 157.48 0)
+		(at 80.01 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11505,7 +11505,7 @@
 		(fields_autoplaced yes)
 		(uuid "e57d2f4b-9bce-4a98-9d88-7dd5fb786b11")
 		(property "Reference" "#PWR026"
-			(at 82.55 161.29 0)
+			(at 80.01 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11514,7 +11514,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 82.55 152.4 0)
+			(at 80.01 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11522,7 +11522,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 157.48 0)
+			(at 80.01 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11531,7 +11531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 157.48 0)
+			(at 80.01 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11540,7 +11540,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 82.55 157.48 0)
+			(at 80.01 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11632,7 +11632,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 120.65 0)
+		(at 228.6 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11641,7 +11641,7 @@
 		(fields_autoplaced yes)
 		(uuid "e89b3ff7-8db6-471e-8454-f4df4b405aee")
 		(property "Reference" "#PWR020"
-			(at 224.79 127 0)
+			(at 228.6 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11650,7 +11650,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 125.73 0)
+			(at 228.6 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11658,7 +11658,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 120.65 0)
+			(at 228.6 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11667,7 +11667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 120.65 0)
+			(at 228.6 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11676,7 +11676,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 120.65 0)
+			(at 228.6 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11843,7 +11843,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 27.94 157.48 0)
+		(at 25.4 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11852,7 +11852,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb2f9466-bd6c-4711-8b09-9440078e1ad0")
 		(property "Reference" "#PWR024"
-			(at 27.94 161.29 0)
+			(at 25.4 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11861,7 +11861,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 27.94 152.4 0)
+			(at 25.4 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11869,7 +11869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 157.48 0)
+			(at 25.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11878,7 +11878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 157.48 0)
+			(at 25.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11887,7 +11887,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 27.94 157.48 0)
+			(at 25.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11980,7 +11980,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f1d8cb4a-c860-47cd-b26d-aabc0e0d95a2")
 		(property "Reference" "C2"
