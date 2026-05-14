@@ -2391,6 +2391,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:L7805"
 			(pin_names
 				(offset 0.254)
@@ -3121,211 +3228,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BC558"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BC558"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.1A Ic, 30V Vce, PNP Small Signal Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "PNP Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BC558_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "BC558_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -3715,6 +3617,12 @@
 		(uuid "083da459-c51a-4481-acf8-7a767f60f064")
 	)
 	(junction
+		(at 115.57 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08bece25-534c-40f0-a0d8-18ee24d1ace5")
+	)
+	(junction
 		(at 143.51 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3757,6 +3665,12 @@
 		(uuid "36862a09-4cd3-485c-80e7-a13269558229")
 	)
 	(junction
+		(at 115.57 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38464dc6-9224-42f2-a4e0-ccb7a4fc4c72")
+	)
+	(junction
 		(at 163.83 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3787,7 +3701,7 @@
 		(uuid "688d1135-1420-41ad-95ef-17362bdfbc3c")
 	)
 	(junction
-		(at 96.52 77.47)
+		(at 80.01 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "705c88fb-5aee-4402-8ecb-e13e18091e5a")
@@ -3809,6 +3723,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "938811fe-7398-475e-9c66-438b437090fb")
+	)
+	(junction
+		(at 97.79 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94192967-43c5-48d9-8c7c-d97e69ba6371")
 	)
 	(junction
 		(at 223.52 135.89)
@@ -3851,12 +3771,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8707cc5-4821-4276-bf58-0256a7a40be8")
-	)
-	(junction
-		(at 114.3 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dceb29ca-1918-474d-9519-31a313f603dc")
 	)
 	(junction
 		(at 121.92 118.11)
@@ -3904,6 +3818,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 66.04) (xy 97.79 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014ec539-82f9-4277-8d8b-148a91cd6089")
+	)
+	(wire
+		(pts
 			(xy 72.39 166.37) (xy 72.39 158.75)
 		)
 		(stroke
@@ -3934,13 +3858,23 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 74.93) (xy 50.8 74.93)
+			(xy 24.13 49.53) (xy 46.99 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "03312f08-f817-4212-a6a8-a079d8887b4f")
+	)
+	(wire
+		(pts
+			(xy 209.55 40.64) (xy 209.55 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04813235-457c-44fe-980d-b7cd1c9de6e4")
 	)
 	(wire
 		(pts
@@ -3964,13 +3898,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 82.55) (xy 114.3 87.63)
+			(xy 97.79 82.55) (xy 97.79 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0fd5b0cb-1a32-4cd5-a467-05eabc6016b5")
+	)
+	(wire
+		(pts
+			(xy 115.57 52.07) (xy 115.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c21793-d6e4-4021-8bec-f3862e0b628f")
 	)
 	(wire
 		(pts
@@ -4024,7 +3968,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 41.91) (xy 50.8 49.53)
+			(xy 73.66 29.21) (xy 73.66 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4051,6 +3995,16 @@
 			(type default)
 		)
 		(uuid "23bc456b-e1e3-4a08-8a75-dfacf14917d4")
+	)
+	(wire
+		(pts
+			(xy 115.57 52.07) (xy 143.51 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a4a5a1-7381-4121-8ffb-c833a526e4fa")
 	)
 	(wire
 		(pts
@@ -4154,7 +4108,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 39.37) (xy 50.8 39.37)
+			(xy 50.8 26.67) (xy 73.66 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4224,13 +4178,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 77.47) (xy 106.68 77.47)
+			(xy 88.9 77.47) (xy 90.17 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "34eee3d8-40fe-47d1-ab43-3a2dc81632e6")
+	)
+	(wire
+		(pts
+			(xy 209.55 36.83) (xy 215.9 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34fd6703-e643-4db4-a7db-7cd867dc5d9b")
 	)
 	(wire
 		(pts
@@ -4284,17 +4248,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 114.3 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b795851-12fc-4e7c-ad2a-b20a23219dd3")
-	)
-	(wire
-		(pts
-			(xy 96.52 77.47) (xy 97.79 77.47)
+			(xy 80.01 77.47) (xy 81.28 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4314,7 +4268,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 40.64) (xy 189.23 40.64)
+			(xy 80.01 40.64) (xy 189.23 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4474,7 +4428,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 39.37) (xy 50.8 33.02)
+			(xy 115.57 63.5) (xy 115.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5775dbbd-b5d1-41dc-9e48-75a3285ada18")
+	)
+	(wire
+		(pts
+			(xy 73.66 26.67) (xy 73.66 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4514,7 +4478,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 114.3 52.07)
+			(xy 97.79 55.88) (xy 97.79 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4544,7 +4508,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 74.93) (xy 50.8 68.58)
+			(xy 46.99 49.53) (xy 46.99 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4624,6 +4588,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 66.04) (xy 130.81 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f58729c-c380-4e2c-8973-d6059781191c")
+	)
+	(wire
+		(pts
 			(xy 80.01 168.91) (xy 99.06 168.91)
 		)
 		(stroke
@@ -4651,16 +4625,6 @@
 			(type default)
 		)
 		(uuid "735d8e4f-01f8-4ca2-a82e-3aee0c10181f")
-	)
-	(wire
-		(pts
-			(xy 114.3 66.04) (xy 130.81 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74efbd4d-6b0f-4b50-9cc4-fb3f8a123e54")
 	)
 	(wire
 		(pts
@@ -4704,7 +4668,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 77.47) (xy 96.52 77.47)
+			(xy 78.74 77.47) (xy 80.01 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4741,6 +4705,16 @@
 			(type default)
 		)
 		(uuid "7ded2285-7f5b-4ec2-b186-c588ea91aee7")
+	)
+	(wire
+		(pts
+			(xy 97.79 66.04) (xy 104.14 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0e17fa-6c3b-4848-b095-fc317f29ee56")
 	)
 	(wire
 		(pts
@@ -4794,7 +4768,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 77.47) (xy 50.8 77.47)
+			(xy 24.13 52.07) (xy 46.99 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4821,6 +4795,16 @@
 			(type default)
 		)
 		(uuid "89f6632e-fba0-4840-80b4-5adfa07f6705")
+	)
+	(wire
+		(pts
+			(xy 111.76 66.04) (xy 115.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e436eda-51ea-48e6-8718-f438d17bb9aa")
 	)
 	(wire
 		(pts
@@ -4894,7 +4878,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 72.39) (xy 34.29 72.39)
+			(xy 245.11 40.64) (xy 245.11 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975eed81-c3a8-4f8e-911d-c574795405be")
+	)
+	(wire
+		(pts
+			(xy 24.13 46.99) (xy 30.48 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4964,13 +4958,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 77.47) (xy 96.52 40.64)
+			(xy 80.01 77.47) (xy 80.01 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9e704085-8aa1-406a-afaa-96cd18512748")
+	)
+	(wire
+		(pts
+			(xy 245.11 36.83) (xy 251.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1039f23-14fd-45bb-9659-4f6334fe85cf")
 	)
 	(wire
 		(pts
@@ -5084,7 +5088,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 52.07) (xy 143.51 52.07)
+			(xy 97.79 52.07) (xy 115.57 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5174,7 +5178,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 41.91) (xy 50.8 41.91)
+			(xy 50.8 29.21) (xy 73.66 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5304,7 +5308,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 36.83) (xy 34.29 36.83)
+			(xy 50.8 24.13) (xy 57.15 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5474,7 +5478,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 77.47) (xy 50.8 85.09)
+			(xy 46.99 52.07) (xy 46.99 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5504,7 +5508,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 66.04) (xy 114.3 72.39)
+			(xy 97.79 63.5) (xy 97.79 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5662,7 +5666,7 @@
 	)
 	(global_label "LASER1"
 		(shape input)
-		(at 69.85 78.74 180)
+		(at 53.34 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5672,7 +5676,7 @@
 		)
 		(uuid "38b1b050-29ef-41c6-a2d2-cb65f0d1efc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.9101 78.74 0)
+			(at 43.4001 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +5688,7 @@
 	)
 	(global_label "SAFETY"
 		(shape input)
-		(at 69.85 76.2 180)
+		(at 53.34 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5694,7 +5698,7 @@
 		)
 		(uuid "3d89a1cf-8464-4a08-aee5-a614f107003e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.2729 76.2 0)
+			(at 43.7629 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +5754,7 @@
 	)
 	(global_label "LASER2"
 		(shape input)
-		(at 69.85 81.28 180)
+		(at 53.34 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5760,7 +5764,7 @@
 		)
 		(uuid "a41af847-527c-4450-beae-a802e2d3b0fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.9101 81.28 0)
+			(at 43.4001 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5776,7 @@
 	)
 	(global_label "LASER2"
 		(shape input)
-		(at 34.29 72.39 0)
+		(at 30.48 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5782,7 +5786,7 @@
 		)
 		(uuid "ba912675-f55e-4765-b4e2-b0461b2922c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.2299 72.39 0)
+			(at 40.4199 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +5798,7 @@
 	)
 	(global_label "TRIGGER"
 		(shape input)
-		(at 69.85 73.66 180)
+		(at 53.34 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5804,7 +5808,7 @@
 		)
 		(uuid "d7dd0f85-5de0-481a-9426-00b8b9166fe1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.0634 73.66 0)
+			(at 42.5534 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +5864,7 @@
 	)
 	(global_label "LASER1"
 		(shape input)
-		(at 34.29 36.83 0)
+		(at 57.15 24.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5870,7 +5874,7 @@
 		)
 		(uuid "f955ab03-b726-4d14-b502-a1564d4faa7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.2299 36.83 0)
+			(at 67.0899 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +5974,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 85.09 0)
+		(at 66.04 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5979,7 +5983,7 @@
 		(fields_autoplaced yes)
 		(uuid "0678a931-0d02-47bf-8a47-eb7150acb5f2")
 		(property "Reference" "#PWR02"
-			(at 82.55 91.44 0)
+			(at 66.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,7 +5992,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 90.17 0)
+			(at 66.04 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5996,7 +6000,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 85.09 0)
+			(at 66.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6005,7 +6009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 85.09 0)
+			(at 66.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6014,7 +6018,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 85.09 0)
+			(at 66.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,9 +6030,75 @@
 			(uuid "732a25f7-1d34-4d4b-9831-42acf4f5c48e")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "075441f2-c14c-4c9a-a567-a8e19575dfc6")
+		(property "Reference" "#PWR0188"
+			(at 162.56 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc64a9b6-ac9d-4684-b539-aa483521a725")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -6101,6 +6171,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 134.62 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0908e877-2bc8-4cbc-9301-62b31a04fc76")
+		(property "Reference" "#PWR0186"
+			(at 134.62 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12ac9037-e8c9-40e4-9220-fc2916001829")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 215.9 62.23 0)
 		(unit 1)
@@ -6158,7 +6294,7 @@
 			(uuid "ffced6bc-70ab-466b-bf51-3387e83f79d3")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR044")
 					(unit 1)
@@ -6224,7 +6360,7 @@
 			(uuid "6e75093c-06c7-4bc6-b543-32b024aa70ea")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR046")
 					(unit 1)
@@ -6290,7 +6426,7 @@
 			(uuid "484cec20-0ba7-4a3b-a706-4d8643327be6")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR022")
 					(unit 1)
@@ -6300,7 +6436,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 50.8 68.58 0)
+		(at 46.99 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6309,7 +6445,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d4c5c33-9863-4244-a432-174a41117cde")
 		(property "Reference" "#PWR032"
-			(at 50.8 72.39 0)
+			(at 46.99 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,7 +6454,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 50.8 63.5 0)
+			(at 46.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +6462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 68.58 0)
+			(at 46.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 68.58 0)
+			(at 46.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6480,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 50.8 68.58 0)
+			(at 46.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,9 +6558,79 @@
 			(uuid "2e95c24a-4fc7-4b0e-ae1f-6ddd7266bca0")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f6bbaa6-0235-45a1-9973-e96857d24381")
+		(property "Reference" "R10"
+			(at 118.11 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 118.11 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 113.792 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30a8531d-16f3-4ca3-a763-fbf42e9759a7")
+		)
+		(pin "2"
+			(uuid "1cb5b4ed-cb0f-4ad6-990e-3f7eedcd009a")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6488,7 +6694,7 @@
 			(uuid "90eb3a50-0e87-40f8-adb3-8230a623aecb")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR045")
 					(unit 1)
@@ -6554,7 +6760,7 @@
 			(uuid "32535a83-bd4c-4784-9179-b0b70188dd0b")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR05")
 					(unit 1)
@@ -6656,7 +6862,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 74.93 53.34 0)
+		(at 58.42 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6665,7 +6871,7 @@
 		(fields_autoplaced yes)
 		(uuid "23c0d4cc-df46-4496-ae9c-68711575dc76")
 		(property "Reference" "#PWR014"
-			(at 74.93 57.15 0)
+			(at 58.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6674,7 +6880,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 74.93 48.26 0)
+			(at 58.42 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +6888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 53.34 0)
+			(at 58.42 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +6897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 53.34 0)
+			(at 58.42 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +6906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 74.93 53.34 0)
+			(at 58.42 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +6918,7 @@
 			(uuid "367a62e3-5558-4047-8ae9-5fd517c1cf3b")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR014")
 					(unit 1)
@@ -6722,7 +6928,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 85.09 0)
+		(at 46.99 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6731,7 +6937,7 @@
 		(fields_autoplaced yes)
 		(uuid "26e49c91-cbc9-455f-857e-f696a45f7d6e")
 		(property "Reference" "#PWR033"
-			(at 50.8 91.44 0)
+			(at 46.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +6946,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 90.17 0)
+			(at 46.99 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +6954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 85.09 0)
+			(at 46.99 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +6963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 85.09 0)
+			(at 46.99 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6766,7 +6972,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 85.09 0)
+			(at 46.99 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,7 +7072,7 @@
 			(uuid "eb9dacf9-2de4-423e-a582-65f28fa7da51")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "U2")
 					(unit 1)
@@ -6932,7 +7138,7 @@
 			(uuid "5a58574e-e734-4bb2-b960-e6c36ac45d08")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR037")
 					(unit 1)
@@ -7002,7 +7208,7 @@
 			(uuid "b4479337-2757-419b-81f1-4db12d039a1c")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "C3")
 					(unit 1)
@@ -7068,7 +7274,7 @@
 			(uuid "3eaff7fc-d5a4-44e3-a0cf-aa16bf52dd1e")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR03")
 					(unit 1)
@@ -7160,9 +7366,80 @@
 			(uuid "3d7b2914-1485-4f86-82d8-42d5f062c610")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "362308b3-cd37-4222-94a1-91992a9f3336")
+		(property "Reference" "C18"
+			(at 241.3 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 241.3 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+			(at 244.1448 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65c2db35-fec7-4616-bf64-77ddc132fcc1")
+		)
+		(pin "2"
+			(uuid "e4c88095-ed3e-427b-8525-8c498ee02cba")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7226,7 +7503,7 @@
 			(uuid "60a2cde3-fdbe-489a-978d-845d40c7dd4e")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR038")
 					(unit 1)
@@ -7296,7 +7573,7 @@
 			(uuid "78cada6e-8468-4766-91d5-25dc9314360b")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "C9")
 					(unit 1)
@@ -7305,8 +7582,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 245.11 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3876dd86-28b7-4eca-bca3-35205c8a3e83")
+		(property "Reference" "#PWR050"
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcc11777-d7fb-493d-9134-96f0be85c020")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 114.3 59.69 0)
+		(at 97.79 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7315,7 +7659,7 @@
 		(fields_autoplaced yes)
 		(uuid "39650368-fa25-4ea4-ae28-f6f8325b1011")
 		(property "Reference" "R1"
-			(at 116.84 58.4199 0)
+			(at 100.33 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7324,7 +7668,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 116.84 60.9599 0)
+			(at 100.33 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7333,7 +7677,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 112.522 59.69 90)
+			(at 96.012 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7342,7 +7686,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 59.69 0)
+			(at 97.79 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7351,7 +7695,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 59.69 0)
+			(at 97.79 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,7 +7710,7 @@
 			(uuid "ef245f33-7c43-411b-8c1e-15992246a349")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "R1")
 					(unit 1)
@@ -7502,7 +7846,7 @@
 			(uuid "4af2ce92-3a0e-47de-9481-094297723ce7")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR039")
 					(unit 1)
@@ -7568,7 +7912,7 @@
 			(uuid "ca891815-1e9b-44cb-aec8-7de6a873b09b")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR023")
 					(unit 1)
@@ -7654,7 +7998,7 @@
 			(uuid "8b7cc38f-02fb-44c4-a11d-8ca025c05daa")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "U3")
 					(unit 1)
@@ -7720,7 +8064,7 @@
 			(uuid "6697a41c-beca-49b3-9b22-d44398f45616")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR07")
 					(unit 1)
@@ -7869,7 +8213,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 82.55 69.85 0)
+		(at 66.04 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7878,7 +8222,7 @@
 		(fields_autoplaced yes)
 		(uuid "564270fc-3171-4693-896f-cb78a957ef03")
 		(property "Reference" "#PWR016"
-			(at 82.55 73.66 0)
+			(at 66.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,7 +8231,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 82.55 64.77 0)
+			(at 66.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7895,7 +8239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 69.85 0)
+			(at 66.04 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7904,7 +8248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 69.85 0)
+			(at 66.04 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7913,7 +8257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 82.55 69.85 0)
+			(at 66.04 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7925,86 +8269,9 @@
 			(uuid "9035aa05-3d41-4ec8-ba7e-6509b8680e9e")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC558")
-		(at 259.08 96.52 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "571c0b52-6283-464f-a0fd-58c4e39c1de0")
-		(property "Reference" "Q2"
-			(at 264.16 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC558"
-			(at 264.16 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 264.16 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
-			(at 259.08 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 30V Vce, PNP Small Signal Transistor, TO-92"
-			(at 259.08 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f2f4a334-7e3b-4335-9b5d-8608a97aa8c7")
-		)
-		(pin "1"
-			(uuid "bb77ee05-3719-4f13-bf71-e91c8ebb80ae")
-		)
-		(pin "3"
-			(uuid "d07585a4-8b65-49c0-9d50-388070baa355")
-		)
-		(instances
-			(project ""
-				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -8068,7 +8335,7 @@
 			(uuid "d1b16c59-7870-4cd9-b1d4-447b0258127f")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR09")
 					(unit 1)
@@ -8134,7 +8401,7 @@
 			(uuid "cd36dac1-a82c-49f2-9b3c-2d6fccfe6edf")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR036")
 					(unit 1)
@@ -8207,7 +8474,7 @@
 			(uuid "4d277acd-1d43-4c55-b663-72731b28a2f7")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "U4")
 					(unit 1)
@@ -8273,7 +8540,7 @@
 			(uuid "2bdee602-3c8e-4369-b509-d7d6a0d1a8d5")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR035")
 					(unit 1)
@@ -8477,9 +8744,144 @@
 			(uuid "f0ae6645-dea8-4779-91af-14d19b9b5b06")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 162.56 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70bab67e-f6f8-4169-946e-fb6346bfe818")
+		(property "Reference" "H6"
+			(at 165.1 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 165.1 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 162.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 162.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97f8d8b0-7a31-41aa-a515-16ecc6c12cf0")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 107.95 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72b4baa2-9905-41a5-b4c6-51b4d6a0ef6d")
+		(property "Reference" "C16"
+			(at 108.839 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 108.839 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 104.14 67.0052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79321f75-a279-4545-8531-83baf1d9b1d5")
+		)
+		(pin "1"
+			(uuid "5375a481-f56d-45fc-92df-8c41bba33cea")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8615,7 +9017,7 @@
 			(uuid "8276383e-d7f3-46d7-94c9-5e73dbb0c362")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "J6")
 					(unit 1)
@@ -8681,7 +9083,7 @@
 			(uuid "1549b4c3-cc25-47b5-ab0c-2008f9f1987a")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR040")
 					(unit 1)
@@ -8761,7 +9163,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 50.8 33.02 0)
+		(at 73.66 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8770,7 +9172,7 @@
 		(fields_autoplaced yes)
 		(uuid "79016e52-b031-49c5-a696-b06346c031c6")
 		(property "Reference" "#PWR030"
-			(at 50.8 36.83 0)
+			(at 73.66 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8779,7 +9181,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 50.8 27.94 0)
+			(at 73.66 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,7 +9189,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 33.02 0)
+			(at 73.66 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8796,7 +9198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 33.02 0)
+			(at 73.66 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +9207,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 50.8 33.02 0)
+			(at 73.66 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,7 +9219,7 @@
 			(uuid "fedecac5-a168-464c-bed5-3853af2293e2")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR030")
 					(unit 1)
@@ -8887,7 +9289,7 @@
 			(uuid "dfd7f61a-6a6d-4ca5-9218-86a745b3e306")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "R8")
 					(unit 1)
@@ -8967,7 +9369,7 @@
 	)
 	(symbol
 		(lib_id "4xxx_IEEE:4082")
-		(at 82.55 77.47 0)
+		(at 66.04 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8976,7 +9378,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e6eb579-e7c3-4ca4-8f1b-a841572e51e8")
 		(property "Reference" "U1"
-			(at 91.44 71.0498 0)
+			(at 74.93 71.0498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +9386,7 @@
 			)
 		)
 		(property "Value" "4082"
-			(at 91.44 73.5898 0)
+			(at 74.93 73.5898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8992,7 +9394,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
-			(at 82.55 77.47 0)
+			(at 66.04 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9001,7 +9403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 77.47 0)
+			(at 66.04 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9010,7 +9412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 77.47 0)
+			(at 66.04 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9055,7 +9457,7 @@
 			(uuid "0a5ee96b-9a2f-465f-b32f-ba447575e806")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "U1")
 					(unit 1)
@@ -9065,7 +9467,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC547")
-		(at 111.76 77.47 0)
+		(at 95.25 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9074,7 +9476,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f139db7-0989-4b6d-a60e-7ee2e91072de")
 		(property "Reference" "Q1"
-			(at 116.84 76.1999 0)
+			(at 100.33 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9083,7 +9485,7 @@
 			)
 		)
 		(property "Value" "BC547"
-			(at 116.84 78.7399 0)
+			(at 100.33 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9092,7 +9494,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 116.84 79.375 0)
+			(at 100.33 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9103,7 +9505,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 111.76 77.47 0)
+			(at 95.25 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9113,7 +9515,7 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-			(at 111.76 77.47 0)
+			(at 95.25 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9131,7 +9533,7 @@
 			(uuid "50bbe4b0-be9a-48df-9a11-5ddf5fc0842e")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "Q1")
 					(unit 1)
@@ -9272,7 +9674,7 @@
 			(uuid "33c0283a-cc45-43f4-a263-43e6330de318")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "D2")
 					(unit 1)
@@ -9420,6 +9822,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 134.62 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8521f403-6dd7-49f7-bf27-7338683aa7b0")
+		(property "Reference" "H2"
+			(at 137.16 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 137.16 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "380ef0fd-b078-447e-8f2a-a3208613853b")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 209.55 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8523eb64-5dcb-4f14-8e7a-1431b61943fa")
+		(property "Reference" "C17"
+			(at 205.74 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 205.74 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+			(at 208.5848 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 209.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9299bfbe-5b8f-4cd1-8b5c-4820cf66f35d")
+		)
+		(pin "2"
+			(uuid "d5cc2a9b-7d24-4c40-b922-6693735a711b")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 259.08 135.89 0)
 		(unit 1)
@@ -9481,9 +10021,76 @@
 			(uuid "80587d94-a526-4135-9025-13631f9e4638")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 162.56 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "894817c1-9acf-4018-ac2c-3b5151e95614")
+		(property "Reference" "H1"
+			(at 165.1 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 165.1 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 162.56 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 162.56 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f9f09c8-ebc0-44a8-8fec-9d3995c771a8")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -9555,7 +10162,7 @@
 			(uuid "9aa3a955-1bad-4541-a698-70185d7f17f8")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "RV1")
 					(unit 1)
@@ -9621,7 +10228,7 @@
 			(uuid "2d61b4c6-5af6-41aa-8a42-396ee30ac5a2")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR08")
 					(unit 1)
@@ -9687,7 +10294,7 @@
 			(uuid "5b36eb13-2665-491b-b7d6-609692d221e2")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR034")
 					(unit 1)
@@ -9753,7 +10360,7 @@
 			(uuid "eb39a104-fbec-46a8-9ee4-4cc3a3dd96a0")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR021")
 					(unit 1)
@@ -9763,7 +10370,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 22.86 74.93 0)
+		(at 19.05 49.53 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9773,7 +10380,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a0b1e94-755e-4ef2-b940-83d42cf300ae")
 		(property "Reference" "J5"
-			(at 22.86 66.04 0)
+			(at 19.05 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,7 +10388,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 22.86 68.58 0)
+			(at 19.05 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,7 +10396,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 22.86 74.93 0)
+			(at 19.05 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,7 +10405,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 74.93 0)
+			(at 19.05 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +10414,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 22.86 74.93 0)
+			(at 19.05 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9898,7 +10505,7 @@
 			(uuid "bd061b83-4364-4d3b-a753-2602f9e70166")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "U5")
 					(unit 1)
@@ -9967,7 +10574,7 @@
 			(uuid "7b052ca1-6c12-4edf-9682-60ed44d01112")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "J7")
 					(unit 1)
@@ -10037,7 +10644,7 @@
 			(uuid "46f311b0-e2f0-4ff6-9056-182377eedec1")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "C7")
 					(unit 1)
@@ -10103,9 +10710,152 @@
 			(uuid "b9be1816-abf0-4bc2-a018-ee97e99356e0")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 134.62 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a71cdfd3-b1e1-4947-9e7d-4e357fdb5bc4")
+		(property "Reference" "H3"
+			(at 137.16 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 137.16 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 134.62 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 134.62 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddd34fb1-928c-4af9-b44a-eed02e488550")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC547")
+		(at 259.08 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aab55272-4fe6-4018-9cb0-af6de30759aa")
+		(property "Reference" "Q2"
+			(at 264.16 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 264.16 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+			(at 264.16 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 259.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 259.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aec5b7b2-dd5c-44fc-8aee-295d94d3bb1b")
+		)
+		(pin "2"
+			(uuid "f6d1291e-0ab9-43eb-9a05-21b9db9e162f")
+		)
+		(pin "3"
+			(uuid "4fd25f0c-78d3-467d-aaad-0709b999d1b7")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -10301,7 +11051,7 @@
 			(uuid "1a73eb16-c31f-4b85-b319-ed4cac647605")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR01")
 					(unit 1)
@@ -10380,8 +11130,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 209.55 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6e155dd-1012-464b-b55c-84bfbeaf4b3c")
+		(property "Reference" "#PWR049"
+			(at 209.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7fc3333-21c8-49ae-9b97-0a49675f5cb3")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 101.6 77.47 90)
+		(at 85.09 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10390,7 +11207,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7095e7f-ea30-486a-8018-d7b5f571d33f")
 		(property "Reference" "R9"
-			(at 101.6 71.12 90)
+			(at 85.09 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10398,7 +11215,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 101.6 73.66 90)
+			(at 85.09 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10406,7 +11223,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 101.6 79.248 90)
+			(at 85.09 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10415,7 +11232,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 77.47 0)
+			(at 85.09 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10424,7 +11241,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 77.47 0)
+			(at 85.09 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10439,7 +11256,7 @@
 			(uuid "47f0690c-4aa8-48a3-b623-dbf9a9c91fa6")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "R9")
 					(unit 1)
@@ -10449,7 +11266,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 74.93 57.15 0)
+		(at 58.42 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10458,7 +11275,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8218daf-496a-4b17-a6bf-3970894a530d")
 		(property "Reference" "C4"
-			(at 78.74 55.8799 0)
+			(at 62.23 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10467,7 +11284,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 78.74 58.4199 0)
+			(at 62.23 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10476,7 +11293,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
-			(at 75.8952 60.96 0)
+			(at 59.3852 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10485,7 +11302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 57.15 0)
+			(at 58.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10494,7 +11311,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 74.93 57.15 0)
+			(at 58.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10509,7 +11326,7 @@
 			(uuid "8330ae21-e0a8-4a1a-8173-7447b4cd657a")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "C4")
 					(unit 1)
@@ -10607,7 +11424,7 @@
 			(uuid "0a5ee96b-9a2f-465f-b32f-ba447575e807")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "U1")
 					(unit 2)
@@ -10673,7 +11490,7 @@
 			(uuid "8ecaaaf3-b5e2-4b75-b959-6ba6c51d80ab")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR042")
 					(unit 1)
@@ -10739,7 +11556,7 @@
 			(uuid "2916938e-19db-4801-b862-33ee450866ac")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR012")
 					(unit 1)
@@ -10809,7 +11626,7 @@
 			(uuid "d3b57583-4151-48e7-9d5e-a5c53e60fce3")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "R4")
 					(unit 1)
@@ -10875,7 +11692,7 @@
 			(uuid "56d58ba4-b009-40b2-98b1-7571d0873656")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR011")
 					(unit 1)
@@ -10945,9 +11762,75 @@
 			(uuid "1e5a8cb2-446a-4e58-8d54-e8805936ffed")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c644eb34-8fb0-474a-b5da-1b6d34c1ae79")
+		(property "Reference" "#PWR0210"
+			(at 162.56 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ba2a2f4-c37a-4350-a496-1314640352e1")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -11011,9 +11894,75 @@
 			(uuid "f7d4d70b-12b7-4f80-8591-7c3f56ba59b2")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cca9aba1-8b5e-4ede-8706-d8ecc82f2695")
+		(property "Reference" "#PWR0189"
+			(at 134.62 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4043434-ee14-4a14-8c20-d2451cbd9523")
+		)
+		(instances
+			(project "coilgun"
+				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -11077,7 +12026,7 @@
 			(uuid "bf6a0086-05ee-44e2-a425-c960ca792830")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR04")
 					(unit 1)
@@ -11156,7 +12105,7 @@
 			(uuid "027a195e-be37-46ba-ab13-402ed46e4012")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "D3")
 					(unit 1)
@@ -11224,7 +12173,7 @@
 			(uuid "53650a17-064a-4973-9b99-dfd13dc32b0a")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "R2")
 					(unit 1)
@@ -11300,7 +12249,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 22.86 39.37 0)
+		(at 45.72 26.67 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11310,7 +12259,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3764d0e-40a7-4d2f-932e-b7412ad8d14a")
 		(property "Reference" "J4"
-			(at 22.86 30.48 0)
+			(at 45.72 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11318,7 +12267,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 22.86 33.02 0)
+			(at 45.72 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11326,7 +12275,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 22.86 39.37 0)
+			(at 45.72 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11335,7 +12284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 39.37 0)
+			(at 45.72 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11344,7 +12293,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 22.86 39.37 0)
+			(at 45.72 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11362,7 +12311,7 @@
 			(uuid "0cfde851-7c3e-4218-bcfe-7e8525b28534")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "J4")
 					(unit 1)
@@ -11372,7 +12321,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 87.63 0)
+		(at 97.79 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11381,7 +12330,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4727c05-a5c4-4810-b672-ea59e71fd38e")
 		(property "Reference" "#PWR06"
-			(at 114.3 93.98 0)
+			(at 97.79 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11390,7 +12339,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 92.71 0)
+			(at 97.79 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11398,7 +12347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 87.63 0)
+			(at 97.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11407,7 +12356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 87.63 0)
+			(at 97.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11416,7 +12365,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 87.63 0)
+			(at 97.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11428,7 +12377,7 @@
 			(uuid "4b0b096a-f81e-4254-bde4-4c45c2a370c3")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR06")
 					(unit 1)
@@ -11495,7 +12444,7 @@
 			(uuid "b6b3035a-4be2-4b54-b4d4-884aa090bda1")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "R3")
 					(unit 1)
@@ -11562,7 +12511,7 @@
 			(uuid "768d4377-a398-438f-ab83-410fef76c5cc")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "D1")
 					(unit 1)
@@ -11628,7 +12577,7 @@
 			(uuid "0ecdf89c-ca95-460c-89d8-254f58e1b9ce")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR013")
 					(unit 1)
@@ -11638,7 +12587,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 49.53 0)
+		(at 73.66 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11647,7 +12596,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7af9a24-040f-479b-a0fb-72a1639b9329")
 		(property "Reference" "#PWR031"
-			(at 50.8 55.88 0)
+			(at 73.66 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,7 +12605,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 54.61 0)
+			(at 73.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11664,7 +12613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 49.53 0)
+			(at 73.66 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11673,7 +12622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 49.53 0)
+			(at 73.66 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,7 +12631,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 49.53 0)
+			(at 73.66 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11694,7 +12643,7 @@
 			(uuid "718c241e-5dc9-47c9-8f4b-6ee9b9da0676")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR031")
 					(unit 1)
@@ -11830,7 +12779,7 @@
 			(uuid "f316fa39-6fe6-4a0a-8102-471e053a8808")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "R6")
 					(unit 1)
@@ -11966,7 +12915,7 @@
 			(uuid "df6de1f0-d8b0-4a53-92d8-bf8b921f4b24")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "C8")
 					(unit 1)
@@ -12032,7 +12981,7 @@
 			(uuid "f0bd135c-1290-4d64-9225-ae7ad13b2dd1")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR020")
 					(unit 1)
@@ -12111,7 +13060,7 @@
 			(uuid "d9643e29-b6ea-494a-a033-06720d027f2f")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "D4")
 					(unit 1)
@@ -12243,7 +13192,7 @@
 			(uuid "4c0dc3f3-edc0-4d37-9a71-73b7256e5ea7")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR024")
 					(unit 1)
@@ -12313,7 +13262,7 @@
 			(uuid "bc75dc27-8f99-4f4a-a554-4a15c2961605")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "C2")
 					(unit 1)
@@ -12323,7 +13272,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 60.96 0)
+		(at 58.42 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12332,7 +13281,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5c223ea-4abf-4bd8-9f84-d1832593453d")
 		(property "Reference" "#PWR015"
-			(at 74.93 67.31 0)
+			(at 58.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12341,7 +13290,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 66.04 0)
+			(at 58.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12349,7 +13298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 60.96 0)
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12358,7 +13307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 60.96 0)
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12367,7 +13316,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 60.96 0)
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12379,7 +13328,7 @@
 			(uuid "acfc961d-1601-4a8a-9b15-e905a0bc03e8")
 		)
 		(instances
-			(project ""
+			(project "coilgun"
 				(path "/ffa870df-5577-4f45-8dc1-ccf21b855371"
 					(reference "#PWR015")
 					(unit 1)
